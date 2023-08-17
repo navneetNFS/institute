@@ -1,0 +1,18 @@
+html{
+    font-size: 10px;
+}
+html , body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+body{
+    font-size: 1.6rem;
+}
+
+a , button{
+text-decoration: none !important;
+transition:  all 400ms ease-in;
+&:after{
+    transition:  all 400ms ease-in;
+}
+}
